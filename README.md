@@ -68,13 +68,13 @@ JavaScript working with array method.
 ```
 
 ```JS
-// Array MAP|FILTER|REUCE
-[1,2,3,4].map(function(v,i) {
+ // Array MAP|FILTER|REUCE
+ [1,2,3,4].map(function(v,i) {
     
-  // This like a forEach however this was made to map the array and data 
-  // that create a brand new array of data that you need to workout !
-  // ex. remove the key 2 
-  ( i === 1 ) ? console.log( 2 +' from i') : console.log(v); // Result: 1 2 from i 3 4
+   // This like a forEach however this was made to map the array and data 
+   // that create a brand new array of data that you need to workout !
+   // ex. remove the key 2 
+   ( i === 1 ) ? console.log( 2 +' from i') : console.log(v); // Result: 1 2 from i 3 4
 
  });
 
@@ -83,7 +83,24 @@ JavaScript working with array method.
  console.log(result);
  // Expected output: Array ["exuberant", "destruction", "present"]
 
+ console.log('-------------REDUCE-------------');
  
+ const array1 = [1, 2, 3, 4];
+ // 0 + 1 + 2 + 3 + 4
+ const initialValue = 0;
+ const sumWithInitial = array1.reduce( function(accumulator, currentValue) {
+   
+   console.log('acc:' +accumulator);
+   console.log('cval:' +currentValue);
+
+   return  accumulator + currentValue;
+
+   },
+  initialValue
+ );
+
+ console.log(sumWithInitial);
+ // Expected output: 10
 
  // Reference:
  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
