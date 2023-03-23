@@ -24,3 +24,32 @@ JavaScript working with array method.
  // Reference: 
  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
 ```
+
+```JS
+ // Array Reverse 
+ let arr = ['a','b','c','d','e'];
+ 
+ console.log(arr.reverse()); // Result: (5) ['e', 'd', 'c', 'b', 'a'] 
+ 
+ // Reference: 
+ // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
+```
+
+```JS
+ // Array Concat or (combine array)
+ let arr2 = [ 1, 2, 3, 4, 5 ];
+ const letters = arr.concat(arr2);
+ console.log(letters); // (10) ['e', 'd', 'c', 'b', 'a', 1, 2, 3, 4, 5]
+ console.log([...arr, ...arr2]); // (10) ['e', 'd', 'c', 'b', 'a', 1, 2, 3, 4, 5]
+
+ // Reference: 
+ // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
+```
+
+```JS
+ // Array JOIN
+ console.log(letters.join(' - ')); // e - d - c - b - a - 1 - 2 - 3 - 4 - 5
+
+ // Reference: 
+ // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+```
