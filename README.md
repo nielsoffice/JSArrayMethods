@@ -66,3 +66,27 @@ JavaScript working with array method.
  // Reference: 
  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at 
 ```
+
+```JS
+// Array MAP|FILTER|REUCE
+[1,2,3,4].map(function(v,i) {
+    
+  // This like a forEach however this was made to map the array and data 
+  // that create a brand new array of data that you need to workout !
+  // ex. remove the key 2 
+  ( i === 1 ) ? console.log( 2 +' from i') : console.log(v); // Result: 1 2 from i 3 4
+
+ });
+
+ const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+ const result = words.filter(word => word.length > 6);
+ console.log(result);
+ // Expected output: Array ["exuberant", "destruction", "present"]
+
+ 
+
+ // Reference:
+ // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+ // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+ // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+```
