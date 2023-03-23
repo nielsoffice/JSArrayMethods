@@ -53,3 +53,16 @@ JavaScript working with array method.
  // Reference: 
  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
 ```
+
+```JS
+ // Array at() 
+ let arr = ['a','b','c','d','e'];
+
+ // Getting first array element
+ console.log(arr.at(0)); // Result: (5) ['a']  
+ // Getting last array element
+ console.log(arr.at(-1)); // Result: (5) ['e'] 
+ 
+ // Reference: 
+ // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at 
+```
