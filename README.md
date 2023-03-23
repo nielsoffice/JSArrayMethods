@@ -88,10 +88,12 @@ JavaScript working with array method.
  const array1 = [1, 2, 3, 4];
  // 0 + 1 + 2 + 3 + 4
  const initialValue = 0;
- const sumWithInitial = array1.reduce( function(accumulator, currentValue) {
+ const sumWithInitial = array1.reduce( function(accumulator, currentValue, index, array) {
    
    console.log('acc:' +accumulator);
    console.log('cval:' +currentValue);
+   console.log('Index:' + index);
+   console.log('d_array:' + array);
 
    return  accumulator + currentValue;
 
