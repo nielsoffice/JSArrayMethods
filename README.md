@@ -109,3 +109,86 @@ JavaScript working with array method.
  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
 ```
+
+```JS
+// Which ARRAY METHOD TO USE
+
+// *TO MUTATE ORIGINAL ARRAY
+// Array method => add to original 
+push(); // end
+// Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+
+unshift(); // start
+// Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
+
+// Array method => Remove from original
+pop(); // end
+// Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
+
+shift(); // start
+// Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
+
+splice(); // any
+// Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+
+// ------------------------------------------------
+
+// *A NEW ARRAY
+// Computed from original:
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+map();
+
+// Filtered using condition
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+filter();
+
+// Portion of original
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+slice();
+
+// Combine array
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
+concat();
+
+// Flattening the original
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap
+flat();
+flatMap();
+
+// ------------------------------------------------
+
+// *A ARRAY INDEX
+// Base on value
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
+indexOf 
+// Base on test condition
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex
+findIndex
+
+// ------------------------------------------------
+
+// *A ARRAY ELEMENT
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+find();
+
+// ------------------------------------------------
+
+// *A ARRAY KNOW IF ARRAY INCLUDES certain element or not!
+// Base on value
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+includes();
+
+// Base on a test condition
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
+some();
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every 
+every();
+
+// ------------------------------------------------
+
+// *A ARRAY NEW STRING!
+// Based on separator string
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+join();
+```
