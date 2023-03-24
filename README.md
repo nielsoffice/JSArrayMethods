@@ -192,3 +192,10 @@ every();
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
 join();
 ```
+
+```JS
+ // ARRAY Method
+ round(); // round up the number if have decimal ex 12 instead of 12.6 
+ ceil(); // round up the number if have decimal ex 13 instead of 12.6
+ floor(); // round down the number if have decimal ex 12 instead of 12.6 
+```
