@@ -175,6 +175,8 @@ find();
 // ------------------------------------------------
 
 // *A ARRAY KNOW IF ARRAY INCLUDES certain element or not!
+// Also can check if there's space on string ex. let name = "jhon"; name.include(' ') ? true : false; 
+// elem.includes() | check somthing anything trying to find within the value string, array or number can be true or false;
 // Base on value
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
 includes();
