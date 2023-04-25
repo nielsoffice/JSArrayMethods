@@ -201,3 +201,42 @@ join();
  ceil(); // round up the number if have decimal ex 13 instead of 12.6
  floor(); // round down the number if have decimal ex 12 instead of 12.6 
 ```
+
+```JS
+  // forEach() vs map()
+  <h1 class="colections">T1</h1>
+  <h1 class="colections">T2</h1>
+  <h1 class="colections">T3</h1>
+  
+  <script>
+
+    let listTitle =  jQuery('.colections'); //['The Title', 'The Title2' , 'The Title'];
+    console.log(listTitle);
+
+    let listTitle2 = document.querySelectorAll('.colections');
+    console.log(listTitle2);
+       
+    let one =  data = {
+        title : listTitle2,
+        cat  : ['The Cat', 'The Cat2','The Cat3'],
+        description : ['The Content', 'The Content2', 'The Content3'],
+        featured : ['file.jpg', 'file2.jpg', 'file3.jpg'],
+     };
+      
+     console.log(one.title);
+     // Use for each if the array has a key !
+     one.title.forEach(function( x,v ) {
+      
+      console.log(x,v);
+
+     });
+     
+     // Use map if just array to find and filter something on array
+     /* listTitle.map(function( x,v ) {
+      
+      console.log(x,v);
+
+     }); */
+     
+    </script>
+```
